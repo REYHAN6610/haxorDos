@@ -1,4 +1,4 @@
-```markdown
+
 # Nama Proyek
 
 <!-- Badges -->
@@ -57,5 +57,3 @@ console.log("Hello World");
 | Login   | ✅     |
 | Dashboard | ✅   |
 | API     | 🚧     |
-
-```
