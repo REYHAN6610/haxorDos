@@ -2,12 +2,10 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/npm/l/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
-[![npm version](https://img.shields.io/npm/v/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
-[![Downloads (week)](https://img.shields.io/npm/dw/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
-[![Downloads (month)](https://img.shields.io/npm/dm/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
-[![Downloads (total)](https://img.shields.io/npm/dt/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
-[![Last publish](https://img.shields.io/npm/last-publish/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![npm version](https://img.shields.io/npm/v/haxorDos?color=brightgreen&style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![npm downloads](https://img.shields.io/npm/dt/haxorDos?color=yellow&style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![npm license](https://img.shields.io/npm/l/haxorDos?color=blue&style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![Last publish](https://img.shields.io/npm/last-publish/haxorDos?color=brightgreen&style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
 
 ![Aniyms](https://qu.ax/AllLT.jpeg)
 
