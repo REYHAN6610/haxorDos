@@ -11,17 +11,31 @@
 
 ![Aniyms](https://qu.ax/AllLT.jpeg)
 
+**A powerful Layer 7 DoS/DDoS testing toolkit built with Node.js**
+
 </div>
 
 ---
 
 ## 📋 Overview
 
-> *DDoS adalah serangan DoS yang diperkuat dengan menggunakan banyak komputer (botnet) secara bersamaan. Salah satu jenisnya menarget Layer 7 (lapisan aplikasi), di mana serangan ini membanjiri aplikasi dengan permintaan yang tampak sah (seperti reload halaman berulang kali) sehingga membuat server down karena kehabisan sumber daya untuk memprosesnya.*
+> *DDoS is an amplified DoS attack that uses multiple computers (botnet) simultaneously. One type targets Layer 7 (application layer), where the attack floods the application with seemingly legitimate requests (like repeatedly reloading pages), causing the server to go down due to resource exhaustion while processing them.*
 
 ---
 
-## 🚀 Instalasi
+## ✨ Features
+
+- 🎯 **Multiple Attack Vectors** - Five different Layer 7 attack methods
+- ⚡ **High Performance** - Optimized for maximum efficiency
+- 🔄 **TCP Socket Support** - Raw TCP connection capabilities
+- 🤖 **Browser Automation** - Stealth mode using Puppeteer
+- 🔍 **Smart Reconnaissance** - Automatic target pre-scanning
+- 📊 **Real-time Validation** - Connection status monitoring
+- 🛡️ **Adaptive Mechanism** - Persistent attack loops
+
+---
+
+## 🚀 Installation
 
 ```bash
 # npm install:
@@ -33,9 +47,9 @@ yarn add haxorDos
 
 ---
 
-## 📖 How To Use
+## 📖 Quick Start
 
-### Entry Point Code
+### Basic Usage
 
 ```js
 const hacxorDos = require('haxorDos');
@@ -47,7 +61,7 @@ hacxorDos.CrawlDos('https://target.com', 300);
 hacxorDos.httpEndpoint('https://target.com/home/user/', 300);
 ```
 
-### How To Export
+### Import Module
 
 ```js
 const hacxorDos = require('haxorDos');
@@ -55,7 +69,7 @@ const hacxorDos = require('haxorDos');
 
 ---
 
-## 🔧 Penjelasan dan Tata Cara Pemanggilan
+## 🔧 Methods Documentation
 
 ### 1. SlowRiss
 
@@ -63,8 +77,12 @@ const hacxorDos = require('haxorDos');
 hacxorDos.SlowRiss('https://target.com', 300);
 ```
 
-**Deskripsi:**  
-DoS Layer 7 yang menahan banyak koneksi HTTP dengan mengirim data secara perlahan atau parsial sehingga server kehabisan slot.
+**Description:**  
+Layer 7 DoS attack that holds many HTTP connections by sending data slowly or partially, causing the server to run out of available slots.
+
+**Parameters:**
+- `target` (string): Target URL
+- `intensity` (number): Attack intensity level
 
 ---
 
@@ -74,8 +92,12 @@ DoS Layer 7 yang menahan banyak koneksi HTTP dengan mengirim data secara perlaha
 hacxorDos.netTcp('https://target.com', 300);
 ```
 
-**Deskripsi:**  
-DDoS Layer 7 yang menggunakan raw TCP socket untuk membangun koneksi jaringan secara langsung, kemudian mengirimkan request HTTP GET.
+**Description:**  
+Layer 7 DDoS attack that uses raw TCP sockets to establish direct network connections, then sends HTTP GET requests.
+
+**Parameters:**
+- `target` (string): Target URL
+- `intensity` (number): Attack intensity level
 
 ---
 
@@ -85,8 +107,12 @@ DDoS Layer 7 yang menggunakan raw TCP socket untuk membangun koneksi jaringan se
 hacxorDos.fastDuck('https://target.com', 300);
 ```
 
-**Deskripsi:**  
-DoS Layer 7 yang dinamakan FastDuck karena menggabungkan kecepatan request tinggi dengan teknik stealth menggunakan browser automation (Puppeteer) untuk menghasilkan traffic yang secara teknis identik dengan kunjungan user legitimate, termasuk fingerprint browser lengkap, security headers valid, dan session cookies.
+**Description:**  
+Layer 7 DoS attack named FastDuck because it combines high-speed requests with stealth techniques using browser automation (Puppeteer) to generate traffic that is technically identical to legitimate user visits, including complete browser fingerprints, valid security headers, and session cookies.
+
+**Parameters:**
+- `target` (string): Target URL
+- `intensity` (number): Attack intensity level
 
 ---
 
@@ -96,22 +122,41 @@ DoS Layer 7 yang dinamakan FastDuck karena menggabungkan kecepatan request tingg
 hacxorDos.CrawlDos('https://target.com/home/user/', 300);
 ```
 
-**Deskripsi:**  
-DoS L7 dengan Adaptive Persistence Mechanism yang menonjolkan fitur reconnaissance otomatis melalui pre-scanning target dan loop attack berkelanjutan, mengombinasikan volume tinggi (300 request/100ms) dengan validasi konektivitas real-time untuk memastikan efektivitas serangan meskipun terhadap target yang dinamis.
+**Description:**  
+Layer 7 DoS with Adaptive Persistence Mechanism that features automatic reconnaissance through target pre-scanning and continuous attack loops, combining high volume (300 requests/100ms) with real-time connectivity validation to ensure attack effectiveness even against dynamic targets.
+
+**Parameters:**
+- `target` (string): Target URL with endpoint
+- `intensity` (number): Attack intensity level
 
 ---
 
-## 💼 Script Contoh Stresser Siap Pakai
+### 5. httpEndpoint
 
-Ini adalah contoh Tools
+```js
+hacxorDos.httpEndpoint('https://target.com/home/user/', 300);
+```
 
-### Github
+**Description:**  
+Targeted endpoint attack focusing on specific application routes.
+
+**Parameters:**
+- `target` (string): Target URL with specific endpoint
+- `intensity` (number): Attack intensity level
+
+---
+
+## 💼 Ready-to-Use Stresser Script Example
+
+This is an example of a complete testing tool
+
+### Preview
 
 ![ScreenShot](https://via.placeholder.com/800x400)
 
 <div align="center">
 
-[![Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge)](https://github.com/REYHAN6610/haxorDos)
+[![Download](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge)](https://github.com/REYHAN6610/haxorDos)
 
 </div>
 
@@ -119,22 +164,37 @@ Ini adalah contoh Tools
 
 ## 📊 Feature Status
 
-| Feature   | Status |
-|-----------|--------|
-| Login     | ✅     |
-| Dashboard | ✅     |
-| API       | 🚧     |
+| Feature              | Status | Description                                    |
+|----------------------|--------|------------------------------------------------|
+| SlowRiss             | ✅     | Slow HTTP connection attack                    |
+| netTcp               | ✅     | Raw TCP socket-based attack                    |
+| fastDuck             | ✅     | Browser automation stealth attack              |
+| CrawlDos             | ✅     | Adaptive reconnaissance attack                 |
+| httpEndpoint         | ✅     | Targeted endpoint attack                       |
+| Multi-threading      | ✅     | Concurrent request handling                    |
+| Proxy Support        | 🚧     | In development                                 |
+| Custom Headers       | ✅     | Configurable HTTP headers                      |
+| Rate Limiting Bypass | ✅     | Advanced evasion techniques                    |
+| SSL/TLS Support      | ✅     | HTTPS target compatibility                     |
+| Connection Pooling   | ✅     | Optimized resource management                  |
+| Auto Retry           | ✅     | Automatic connection retry mechanism           |
+| Logging System       | 🚧     | In development                                 |
+| Dashboard UI         | 🚧     | Web-based control panel                        |
+| API Integration      | 🚧     | RESTful API support                            |
 
 ---
 
-## 📝 License
+## ⚠️ Disclaimer
 
-This project is licensed under the terms specified in the repository.
+**IMPORTANT:** This tool is intended for **educational purposes** and **authorized security testing only**. 
+
+- ⚖️ Unauthorized use of this tool against systems you don't own or have explicit permission to test is **illegal**
+- 🔒 Always obtain proper authorization before conducting any security tests
+- 📜 Users are solely responsible for compliance with applicable laws and regulations
+- 🛡️ The developers assume no liability for misuse or damage caused by this software
 
 ---
 
 <div align="center">
-
-**Made with ❤️ by REYHAN6610**
-
+Hellow
 </div>
