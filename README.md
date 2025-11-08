@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![License](https://img.shields.io/github/license/REYHAN6610/haxorDos?style=for-the-badge&color=blue)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC--BY--NC--ND%204.0-blue?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 ![Stars](https://img.shields.io/github/stars/REYHAN6610/haxorDos?style=for-the-badge&color=yellow)
 ![Forks](https://img.shields.io/github/forks/REYHAN6610/haxorDos?style=for-the-badge&color=orange)
 ![Issues](https://img.shields.io/github/issues/REYHAN6610/haxorDos?style=for-the-badge&color=red)
@@ -156,7 +156,7 @@ This is an example of a complete testing tool
 
 <div align="center">
 
-[![Download](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge)](https://github.com/REYHAN6610/haxorDos)
+[![Download](https://img.shields.io/badge/GitHub-Repo-black?logo=github&style=for-the-badge)](https://github.com/REYHAN6610/haxorDos)
 
 </div>
 
@@ -172,15 +172,6 @@ This is an example of a complete testing tool
 | CrawlDos             | ✅     | Adaptive reconnaissance attack                 |
 | httpEndpoint         | ✅     | Targeted endpoint attack                       |
 | Multi-threading      | ✅     | Concurrent request handling                    |
-| Proxy Support        | 🚧     | In development                                 |
-| Custom Headers       | ✅     | Configurable HTTP headers                      |
-| Rate Limiting Bypass | ✅     | Advanced evasion techniques                    |
-| SSL/TLS Support      | ✅     | HTTPS target compatibility                     |
-| Connection Pooling   | ✅     | Optimized resource management                  |
-| Auto Retry           | ✅     | Automatic connection retry mechanism           |
-| Logging System       | 🚧     | In development                                 |
-| Dashboard UI         | 🚧     | Web-based control panel                        |
-| API Integration      | 🚧     | RESTful API support                            |
 
 ---
 
@@ -196,5 +187,6 @@ This is an example of a complete testing tool
 ---
 
 <div align="center">
-Hellow
+**Please Donation:**
+[![Donate](https://img.shields.io/badge/Donate-Saweria-orange?style=for-the-badge&logo=buymeacoffee)](https://saweria.co/reyhantanpahutang)
 </div>
