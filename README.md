@@ -2,12 +2,12 @@
 
 <div align="center">
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC--BY--NC--ND%204.0-blue?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-![Stars](https://img.shields.io/github/stars/REYHAN6610/haxorDos?style=for-the-badge&color=yellow)
-![Forks](https://img.shields.io/github/forks/REYHAN6610/haxorDos?style=for-the-badge&color=orange)
-![Issues](https://img.shields.io/github/issues/REYHAN6610/haxorDos?style=for-the-badge&color=red)
-![Repo Size](https://img.shields.io/github/repo-size/REYHAN6610/haxorDos?style=for-the-badge&color=purple)
-![Last Commit](https://img.shields.io/github/last-commit/REYHAN6610/haxorDos?style=for-the-badge&color=brightgreen)
+[![License](https://img.shields.io/npm/l/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![npm version](https://img.shields.io/npm/v/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![Downloads (week)](https://img.shields.io/npm/dw/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![Downloads (month)](https://img.shields.io/npm/dm/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![Downloads (total)](https://img.shields.io/npm/dt/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
+[![Last publish](https://img.shields.io/npm/last-publish/haxorDos?style=for-the-badge)](https://www.npmjs.com/package/haxorDos)
 
 ![Aniyms](https://qu.ax/AllLT.jpeg)
 
@@ -187,6 +187,11 @@ This is an example of a complete testing tool
 ---
 
 <div align="center">
-**Please Donation:**
-[![Donate](https://img.shields.io/badge/Donate-Saweria-orange?style=for-the-badge&logo=buymeacoffee)](https://saweria.co/reyhantanpahutang)
+
+<strong>Please Donate:</strong>  
+<br>  
+<a href="https://saweria.co/reyhantanpahutang">
+  <img src="https://img.shields.io/badge/Donate-Saweria-orange?style=for-the-badge&logo=buymeacoffee" alt="Donate via Saweria">
+</a>
+
 </div>
