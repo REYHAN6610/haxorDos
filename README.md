@@ -1,22 +1,9 @@
-
-# Nama Proyek
-
-<!-- Badges -->
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/username/repo)
-![GitHub](https://img.shields.io/github/license/username/repo)
-![GitHub issues](https://img.shields.io/github/issues/username/repo)
-![GitHub stars](https://img.shields.io/github/stars/username/repo)
-![GitHub forks](https://img.shields.io/github/forks/username/repo)
-![Build Status](https://img.shields.io/github/actions/workflow/status/username/repo/main.yml)
-![npm version](https://img.shields.io/npm/v/package-name)
-![Downloads](https://img.shields.io/npm/dm/package-name)
-
-Deskripsi singkat proyek Anda.
-
-## Screenshot
-
-![Screenshot 1](https://via.placeholder.com/800x400)
-
+[![License](https://img.shields.io/badge/license-GPL-3.0-blue.svg)](https://github.com/REYHAN6610/haxorDos/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/REYHAN6610/haxorDos/ci.yml?branch=main)](https://github.com/REYHAN6610/haxorDos/actions)
+[![GitHub issues](https://img.shields.io/github/issues/REYHAN6610/haxorDos.svg)](https://github.com/REYHAN6610/haxorDos/issues)
+[![GitHub stars](https://img.shields.io/github/stars/REYHAN6610/haxorDos.svg)](https://github.com/REYHAN6610/haxorDos/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/REYHAN6610/haxorDos.svg)](https://github.com/REYHAN6610/haxorDos/network)
+[![GitHub release](https://img.shields.io/github/v/release/REYHAN6610/haxorDos.svg)](https://github.com/REYHAN6610/haxorDos/releases)
 ![Demo GIF](https://via.placeholder.com/600x300)
 
 ## Instalasi
