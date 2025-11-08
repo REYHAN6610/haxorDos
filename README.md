@@ -1,5 +1,3 @@
-# HAXOR Denial of Service WITH NODE JS
-
 <div align="center">
   <a href="https://www.npmjs.com/package/haxor-dos" title="npm version">
     <img src="https://img.shields.io/npm/v/haxor-dos?color=brightgreen&style=for-the-badge" alt="npm version">
@@ -13,12 +11,10 @@
   <a href="https://www.npmjs.com/package/haxor-dos" title="package">
     <img src="https://img.shields.io/npm/v/haxor-dos?label=package&logo=npm&style=for-the-badge" alt="package">
   </a>
-
   <a href="https://nodejs.org/api/modules.html" title="CommonJS module format">
     <img src="https://img.shields.io/badge/Module-CommonJS-yellow?style=for-the-badge" alt="CommonJS">
   </a>
-  <br><br>
-  <a href="https://www.npmjs.com/package/haxor-dos" title="Aniyms">
-
+  
+![Aniyms](https://qu.ax/AllLT.jpeg)
   <p><strong>A powerful Layer 7 DoS/DDoS testing toolkit built with Node.js</strong></p>
 </div>
