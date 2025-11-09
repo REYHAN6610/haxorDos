@@ -11,7 +11,7 @@
     "author": "REYHAN6610",
     "license": "GPL-3.0",
     "dependencies": {
-        "haxor-dos": "latest",
+        "haxordos": "latest",
         "gradient-string": "latest"
     },
     "scripts": {
